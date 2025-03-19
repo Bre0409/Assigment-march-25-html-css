@@ -1,0 +1,848 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background: url(guitarsession.jpg);
+    background-size: cover;
+    background-repeat:no-repeat;
+    font-weight: 600;
+    color: white;
+
+}
+
+header{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    z-index: 99;
+    box-shadow: 0 0 10px #000 ;
+    background:rgba(0, 0, 0, 0.5) ;
+}
+
+i{
+    color: #fff;
+    cursor: pointer;
+}
+header .logo{
+    flex: 1;
+    color: #fff;
+    margin-left: 50px;
+    text-transform: uppercase;
+}
+
+header ul{
+    flex: 2;
+    display: flex;
+    justify-content: space-evenly;
+}
+header ul li{
+    list-style: none;
+}
+header ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 10px 15px;
+}
+header ul li a:hover{
+    border-bottom: 2px solid white;
+}
+header .menu{
+    font-size: 2.5em;
+    display: none;
+}
+@media(min-width: 768px){
+.container{
+    
+    border: 2px solid green;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 100px repeat(3, 1fr);
+    padding: 50px;
+    row-gap: 2em;
+   
+    
+    
+}
+.box-1{
+    padding-top: 40%;
+    background-color: rgba(0, 0, 0, 0);
+    height: 100%;
+    width:100%;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    border-radius: 25px;
+    grid-column: 1/4;
+  
+}
+
+h1{
+    margin:5%;
+    
+}
+.box-2{
+    background-color: #16041d;
+    height:100%;
+    width:100%;
+    display: flex;
+    align-items: center;
+    grid-row: 2;
+    grid-column:1/3 ;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    
+}
+p{
+    margin:5%;
+}
+.box-3{
+    
+    background-color:#16041d;
+    height:100%;
+    width:100%;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border-left: 1px solid white;
+}
+
+img{
+    width:100% ;
+    height:100%;
+    margin: 5%;
+    border-radius: 25px;
+   
+}
+.box-4{
+    
+    background-color: #16041d;
+    height:100%;
+    width:100%;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+}
+.box-5{
+    
+    background-color:#16041d;
+    height:100%;
+    width:100%;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    border-left: 1px solid white;
+   
+}
+.box-6{
+    
+    background-color:#16041d;
+    height:100%;
+    width:100%;
+    display: flex;
+    align-items: center;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border-left: 1px solid white;
+    
+}
+.box-7{
+    
+    background-color:#16041d;
+    height:100%;
+    width:100%;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    
+}
+.box-8{
+    
+    background-color:#16041d;
+    height:100%;
+    width:100%;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    grid-column: 2/4 ;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border-left: 1px solid white;
+    
+}
+iframe{
+width: 100%;
+height: 100%;
+border: none;
+border-top-right-radius: 25px;
+border-bottom-right-radius: 25px;
+}
+.song-container{
+border: 2px solid green;
+padding: 15%;
+height: 100vh;
+
+
+}
+.song-box{
+        display: flex;
+        justify-content: center;
+        align-items:center;
+        height: 100%;
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0);
+        color: white;
+        font-weight: 600;
+       
+}
+table, td, th{
+    border: 1px solid #fff;
+    text-align: center;
+    
+
+}
+table{
+    
+    height:400px;
+    width: 800px;
+    background-color:rgba(0, 0, 0, 0.5)
+    
+}
+td a{
+    color:#fff;
+}
+td a:hover{
+    color: red;
+}
+
+.gigs-container{
+    border: 2px solid green;
+      padding: 15%;
+      height: 100vh;
+}
+.gigbox{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+   font-weight: 600;
+}
+
+.contact-container{
+    border: 2px solid green;
+      padding: 15%;
+      height: 100vh;
+}
+.contact-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    
+      
+}
+button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    direction: row;
+    width: 30%;
+    height: 100%;
+    border-radius: 25px;
+    border-color: black;
+    background-color: black;
+    color:#fff;
+    margin-top: 2%;
+}
+
+.yourmessage{
+    margin-top: 20px;
+    
+} 
+#myTextarea{
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.contact-box img{
+    opacity: 0.5;
+}
+.input-field{
+    width: 100%;
+    height: 40px;
+    margin-top: 20px;
+    padding-left: 10px;
+    border: 1px solid #777;
+    outline:none;
+}
+
+/* * fade in logo start */ 
+@keyframes fadeIn{
+    100%{ opacity: 1;}
+    0%{ opacity: 0;}
+}
+
+.fade-logo{
+    animation: fadeIn 3s ease-in;
+    
+}
+.fade-logo img{
+    height: 80%;
+    width: 80%;
+}
+
+/* fade in end */
+}
+footer{
+    
+}
+@media (max-width: 767px) {
+   
+    .container{
+        border: 2px solid green;
+        display: grid;
+        grid-template-columns:1fr ;
+        grid-template-rows:1fr;
+        padding: 10%;
+        color: white;
+        row-gap: 2em;
+    
+    }
+    
+    .box-1{
+        padding-top: 20%;
+        padding-bottom: 5%;
+        background-color: rgba(0, 0, 0, 0);
+        height:50px;
+        width:100%;
+        display: flex;
+        align-items: center; 
+        justify-content: center;
+        border-radius: 25px;
+        
+        
+    }
+
+    h1{
+        margin:5%;
+        
+    }
+    .box-2{
+        background-color: rgba(0, 0, 0, 0);
+        height:240px;
+        width:100%;
+        display: flex;
+        align-items: center;
+        
+    }
+    p{
+        margin:5%;
+    }
+    .box-3{
+        background-color: rgba(0, 0, 0, 0);
+        height:250px;
+        width:100%;
+        display: flex;
+        align-items:center;
+        justify-content: center;
+        
+    }
+
+    img{
+        width:100% ;
+        height:100%;
+        margin: 5%;
+        border-radius: 25px;
+       
+    }
+    .box-4{
+       
+        background-color: rgba(0, 0, 0, 0);
+        height:250px;
+        width:100%;
+        display: flex;
+        align-items:center;
+        justify-content: center;
+    }
+    .box-5{
+       
+        background-color:rgba(0, 0, 0, 0.5);
+        height:50px;
+        width:100%;
+        display: flex;
+        align-items: center; 
+        justify-content: center;
+        border-radius: 25px;
+    }
+    .box-6{
+        
+        background-color:rgba(0, 0, 0, 0);
+        height:140px;
+        width:100%;
+        display: flex;
+        align-items: center;
+    }
+    .box-7{
+      
+        background-color:rgba(0, 0, 0, 0.5);
+        height:50px;
+        width:100%;
+        display: flex;
+        align-items: center; 
+        justify-content: center;
+        border-radius: 25px;
+    }
+    .box-8{
+    
+        background-color:black;
+        height:250px;
+        width:100%;
+        display: flex;
+        align-items:center;
+        justify-content: center;
+        border-radius: 25px;
+}
+iframe{
+    width: 100%;
+    height: 100%;
+    border: none;
+    border-radius: 25px;
+}
+.song-container{
+    border: 2px solid green;
+    padding: 15%;
+    
+    
+    
+    }
+    .song-box{
+            display: flex;
+            justify-content: center;
+            align-items:center;
+            height: 100%;
+            width: 100%;
+            background-color: rgba(0, 0, 0, 0);
+            color: white;
+            font-weight: 600;
+           
+    }
+    table, td, th{
+        border: 1px solid #fff;
+        text-align: center;
+        
+    
+    }
+    table{
+        
+        height:400px;
+        width: 800px;
+        background-color:rgba(0, 0, 0, 0.5)
+        
+    }
+    td a{
+        color:#fff;
+    }
+    td a:hover{
+        color: red;
+    }
+    
+    .gigs-container{
+        border: 2px solid green;
+          padding: 15%;
+    }
+    .gigbox{
+        display: flex;
+        justify-content: center;
+        align-items:center;
+        height: 100%;
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0);
+        color: white;
+       font-weight: 600;
+    }
+    
+    .contact-container{
+        border: 2px solid green;
+          padding: 15%;
+    }
+    .contact-box{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0);
+        color: white;
+        
+          
+    }
+    button{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        direction: row;
+        width: 30%;
+        height: 100%;
+        border-radius: 25px;
+        border-color: black;
+        background-color: black;
+        color:#fff;
+        margin-top: 2%;
+    }
+    
+    .yourmessage{
+        margin-top: 20px;
+        
+    } 
+    #myTextarea{
+        font-family: Arial, Helvetica, sans-serif;
+        
+    }
+    .contact-box img{
+        opacity: 0.5;
+    }
+    .input-field{
+        width: 100%;
+        height: 40px;
+        margin-top: 20px;
+        padding-left: 10px;
+        border: 1px solid #777;
+        outline:none;
+    }
+    
+    /* * fade in logo start */ 
+    @keyframes fadeIn{
+        100%{ opacity: 1;}
+        0%{ opacity: 0;}
+    }
+    
+    .fade-logo{
+        animation: fadeIn 3s ease-in;
+        
+    }
+    .fade-logo img{
+        height: 80%;
+        width: 80%;
+    }
+    
+    /* fade in end */
+}
+
+
+
+
+@media(max-width: 480px){
+
+    header{
+        width: 100%;
+        height: 60px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: fixed;
+        z-index: 99;
+        box-shadow: 0 0 10px #000 ;
+        background:rgba(0, 0, 0, 0.5) ;
+    }
+    
+    i{
+        color: #fff;
+        cursor: pointer;
+    }
+    header .logo{
+        flex: 1;
+        color: #fff;
+        margin-left: 20px;
+        text-transform: uppercase;
+        font-size:20%;
+    }
+    
+    header ul{
+        flex: 8;
+        display: flex;
+        justify-content: space-evenly;
+        font-size: xx-small;
+    }
+    header ul li{
+        list-style: none;
+    }
+    header ul li a{
+        text-decoration: none;
+        color: #fff;
+        font-weight: 600;
+        text-transform: uppercase;
+        padding: 5px 5px;
+    }
+    header ul li a:hover{
+        border-bottom: 2px solid white;
+    }
+    /* header .menu{
+        font-size: 2.5em;
+        display: none; */
+    /* } */
+    .container{
+        border: 2px solid green;
+        display: grid;
+        grid-template-columns:1fr ;
+        grid-template-rows:1fr;
+        padding: 10%;
+        color: white;
+        row-gap: 1em;
+        font-size: x-small;
+        font-weight: 600;
+    
+    }
+    .box-1{
+        background-color: rgba(0, 0, 0, 0.5);
+        padding-bottom: 2%;
+        height:50px;
+        width:100%;
+        display: flex;
+        align-items: center; 
+        justify-content: center;
+        border-radius: 25px;
+        
+        
+    }
+
+    h1{
+        margin:5%;
+        
+    }
+    .box-2{
+        /* border:2px solid black; */
+        background-color: rgba(0, 0, 0, 0);
+        height:240px;
+        width:100%;
+        display: flex;
+        align-items: center;
+        
+    }
+    p{
+        margin:5%;
+    }
+    .box-3{
+        /* border:2px solid black; */
+        background-color: rgba(0, 0, 0, 0);
+        height:250px;
+        width:100%;
+        display: flex;
+        align-items:center;
+        justify-content: center;
+        
+    }
+
+    img{
+        width:100% ;
+        height:100%;
+        margin: 5%;
+        border-radius: 25px;
+       
+    }
+    .box-4{
+        /* border:2px solid black; */
+        background-color: rgba(0, 0, 0, 0);
+        height:250px;
+        width:90%;
+        display: flex;
+        align-items:center;
+        justify-content: center;
+        padding-left: 5%;
+    }
+    .box-5{
+        /* border:2px solid black; */
+        background-color:rgba(0, 0, 0, 0.5);
+        height:50px;
+        width:100%;
+        display: flex;
+        align-items: center; 
+        justify-content: center;
+        border-radius: 25px;
+    }
+    .box-6{
+        /* border:2px solid black; */
+        background-color:rgba(0, 0, 0, 0);
+        height:140px;
+        width:100%;
+        display: flex;
+        align-items: center;
+    }
+    .box-7{
+        /* border:2px solid black; */
+        background-color:rgba(0, 0, 0, 0.5);
+        height:50px;
+        width:100%;
+        display: flex;
+        align-items: center; 
+        justify-content: center;
+        border-radius: 25px;
+    }
+    .box-8{
+        /* border:2px solid black; */
+        background-color:black;
+        height:250px;
+        width:100%;
+        display: flex;
+        align-items:center;
+        justify-content: center;
+        border-radius: 25px;
+}
+iframe{
+    width: 100%;
+    height: 100%;
+    border: none;
+    border-radius: 25px;
+}
+.song-container{
+    border: 2px solid green;
+    padding: 15%;
+    height: 100vh;
+    
+    }
+    .song-box{
+            display: flex;
+            justify-content: center;
+            align-items:center;
+            height: 100%;
+            width: 100%;
+            background-color: rgba(0, 0, 0, 0);
+            color: white;
+            font-weight: 600;
+            font-size:x-small;
+            padding-top: 10%;
+           
+    }
+    
+    table, td, th{
+        border: 1px solid #fff;
+        text-align: center;
+        
+    
+    }
+    table{
+        
+        height:400px;
+        width: 800px;
+        background-color:rgba(0, 0, 0, 0.5)
+        
+    }
+    td a{
+        color:#fff;
+    }
+    td a:hover{
+        color: red;
+    }
+    
+    .gigs-container{
+        border: 2px solid green;
+          padding: 15%;
+          height: 100vh;
+    }
+    .gigbox{
+        display: flex;
+        justify-content: center;
+        align-items:center;
+        height: 100%;
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0);
+        color: white;
+       font-weight: 600;
+    }
+    
+    .contact-container{
+        border: 2px solid green;
+          padding: 15%;
+          height: 100vh;
+    }
+    .contact-box{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        height: 100%;
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0);
+        color: white;
+        font-size: small;
+        
+          
+    }
+    button{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        direction: row;
+        width: 30%;
+        height: 10%;
+        border-radius: 25px;
+        border-color: black;
+        background-color: black;
+        color:#fff;
+        margin-top: 2%;
+    }
+    
+    .yourmessage{
+        margin-top: 20px;
+        
+        
+    } 
+    #myTextarea{
+        font-family: Arial, Helvetica, sans-serif;
+        width: 100%;
+        height: 100px;
+    }
+    .contact-box img{
+        opacity: 0.5;
+    }
+    .input-field{
+        width: 100%;
+        height: 40px;
+        margin-top: 20px;
+        padding-left: 10px;
+        border: 1px solid #777;
+        outline:none;
+    }
+    
+    /* * fade in logo start */ 
+    @keyframes fadeIn{
+        100%{ opacity: 1;}
+        0%{ opacity: 0;}
+    }
+    
+    .fade-logo{
+        animation: fadeIn 3s ease-in;
+        
+    }
+    .fade-logo img{
+        width: 80%;
+        height:200px;
+        
+    }
+    
+    /* fade in end */
+    footer{
+        font-size: xx-small;
+        padding:5%;
+    }
+    }
+    
+    
