@@ -312,9 +312,7 @@ button{
 
 /* fade in end */
 }
-footer{
-    
-}
+
 @media (max-width: 767px) {
    
     .container{
@@ -595,10 +593,8 @@ iframe{
     header ul li a:hover{
         border-bottom: 2px solid white;
     }
-    /* header .menu{
-        font-size: 2.5em;
-        display: none; */
-    /* } */
+    
+
     .container{
         border: 2px solid green;
         display: grid;
@@ -612,7 +608,7 @@ iframe{
     
     }
     .box-1{
-        background-color: rgba(0, 0, 0, 0.5);
+        background-color: rgba(0, 0, 0, 0);
         padding-bottom: 2%;
         height:50px;
         width:100%;
