@@ -65,7 +65,10 @@ header .menu{
     display: none;
 }
 
-@media(min-width: 768px){
+
+@media only screen and (min-width: 768px) {
+   
+  
 .container{
     
     border: 2px solid green;
@@ -302,10 +305,7 @@ button{
     0%{ opacity: 0;}
 }
 
-.fade-logo{
-    animation: fadeIn 3s ease-in;
-    
-}
+
 .fade-logo img{
     height: 80%;
     width: 80%;
@@ -547,8 +547,11 @@ iframe{
 
 
 
+   
+   
 
-@media(max-width: 480px){
+
+@media(max-width: 766px){
 
     header{
         width: 100%;
@@ -841,4 +844,4 @@ iframe{
     }
     }
     
-    
+  
