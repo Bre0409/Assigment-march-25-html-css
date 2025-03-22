@@ -10,8 +10,13 @@ body{
     background-size: cover;
     background-repeat:no-repeat;
     font-weight: 600;
-    color: white;
+    color: white; 
 
+}
+.foot-box{
+    display: grid;
+    align-content: center;
+    padding-top:80px;
 }
 
 header{
@@ -59,6 +64,7 @@ header .menu{
     font-size: 2.5em;
     display: none;
 }
+
 @media(min-width: 768px){
 .container{
     
@@ -68,8 +74,6 @@ header .menu{
     grid-template-rows: 100px repeat(3, 1fr);
     padding: 50px;
     row-gap: 2em;
-   
-    
     
 }
 .box-1{
@@ -194,8 +198,6 @@ border-bottom-right-radius: 25px;
 .song-container{
 border: 2px solid green;
 padding: 15%;
-height: 100vh;
-
 
 }
 .song-box{
@@ -248,7 +250,7 @@ td a:hover{
 .contact-container{
     border: 2px solid green;
       padding: 15%;
-      height: 100vh;
+      
 }
 .contact-box{
     display: flex;
@@ -265,7 +267,6 @@ button{
     display: flex;
     align-items: center;
     justify-content: center;
-    direction: row;
     width: 30%;
     height: 100%;
     border-radius: 25px;
@@ -323,6 +324,7 @@ button{
         padding: 10%;
         color: white;
         row-gap: 2em;
+
     
     }
     
@@ -336,8 +338,7 @@ button{
         align-items: center; 
         justify-content: center;
         border-radius: 25px;
-        
-        
+          
     }
 
     h1{
@@ -497,7 +498,6 @@ iframe{
         display: flex;
         align-items: center;
         justify-content: center;
-        direction: row;
         width: 30%;
         height: 100%;
         border-radius: 25px;
@@ -605,6 +605,7 @@ iframe{
         row-gap: 1em;
         font-size: x-small;
         font-weight: 600;
+
     
     }
     .box-1{
@@ -711,7 +712,7 @@ iframe{
 .song-container{
     border: 2px solid green;
     padding: 15%;
-    height: 100vh;
+    
     
     }
     .song-box{
@@ -751,7 +752,7 @@ iframe{
     .gigs-container{
         border: 2px solid green;
           padding: 15%;
-          height: 100vh;
+        
     }
     .gigbox{
         display: flex;
@@ -767,7 +768,7 @@ iframe{
     .contact-container{
         border: 2px solid green;
           padding: 15%;
-          height: 100vh;
+          
     }
     .contact-box{
         display: flex;
@@ -786,7 +787,6 @@ iframe{
         display: flex;
         align-items: center;
         justify-content: center;
-        direction: row;
         width: 30%;
         height: 10%;
         border-radius: 25px;
