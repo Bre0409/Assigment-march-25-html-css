@@ -71,7 +71,6 @@ header .menu{
   
 .container{
     
-    border: 2px solid green;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 100px repeat(3, 1fr);
@@ -199,7 +198,6 @@ border-top-right-radius: 25px;
 border-bottom-right-radius: 25px;
 }
 .song-container{
-border: 2px solid green;
 padding: 15%;
 
 }
@@ -235,7 +233,7 @@ td a:hover{
 }
 
 .gigs-container{
-    border: 2px solid green;
+   
       padding: 15%;
       height: 100vh;
 }
@@ -251,7 +249,7 @@ td a:hover{
 }
 
 .contact-container{
-    border: 2px solid green;
+    
       padding: 15%;
       
 }
@@ -317,7 +315,6 @@ button{
 @media (max-width: 767px) {
    
     .container{
-        border: 2px solid green;
         display: grid;
         grid-template-columns:1fr ;
         grid-template-rows:1fr;
@@ -465,7 +462,6 @@ iframe{
     }
     
     .gigs-container{
-        border: 2px solid green;
           padding: 15%;
     }
     .gigbox{
@@ -480,7 +476,7 @@ iframe{
     }
     
     .contact-container{
-        border: 2px solid green;
+
           padding: 15%;
     }
     .contact-box{
@@ -551,7 +547,7 @@ iframe{
    
 
 
-@media(max-width: 766px){
+@media(max-width: 767px){
 
     header{
         width: 100%;
@@ -599,7 +595,7 @@ iframe{
     
 
     .container{
-        border: 2px solid green;
+        
         display: grid;
         grid-template-columns:1fr ;
         grid-template-rows:1fr;
@@ -629,7 +625,7 @@ iframe{
         
     }
     .box-2{
-        /* border:2px solid black; */
+        
         background-color: rgba(0, 0, 0, 0);
         height:240px;
         width:100%;
@@ -641,7 +637,7 @@ iframe{
         margin:5%;
     }
     .box-3{
-        /* border:2px solid black; */
+
         background-color: rgba(0, 0, 0, 0);
         height:250px;
         width:100%;
@@ -659,7 +655,7 @@ iframe{
        
     }
     .box-4{
-        /* border:2px solid black; */
+        
         background-color: rgba(0, 0, 0, 0);
         height:250px;
         width:90%;
@@ -669,7 +665,7 @@ iframe{
         padding-left: 5%;
     }
     .box-5{
-        /* border:2px solid black; */
+        
         background-color:rgba(0, 0, 0, 0.5);
         height:50px;
         width:100%;
@@ -679,7 +675,7 @@ iframe{
         border-radius: 25px;
     }
     .box-6{
-        /* border:2px solid black; */
+        
         background-color:rgba(0, 0, 0, 0);
         height:140px;
         width:100%;
@@ -687,7 +683,7 @@ iframe{
         align-items: center;
     }
     .box-7{
-        /* border:2px solid black; */
+        
         background-color:rgba(0, 0, 0, 0.5);
         height:50px;
         width:100%;
@@ -697,7 +693,7 @@ iframe{
         border-radius: 25px;
     }
     .box-8{
-        /* border:2px solid black; */
+        
         background-color:black;
         height:250px;
         width:100%;
@@ -713,7 +709,7 @@ iframe{
     border-radius: 25px;
 }
 .song-container{
-    border: 2px solid green;
+    
     padding: 15%;
     
     
@@ -753,7 +749,7 @@ iframe{
     }
     
     .gigs-container{
-        border: 2px solid green;
+        
           padding: 15%;
         
     }
@@ -769,7 +765,7 @@ iframe{
     }
     
     .contact-container{
-        border: 2px solid green;
+      
           padding: 15%;
           
     }
